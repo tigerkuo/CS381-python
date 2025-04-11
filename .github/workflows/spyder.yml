@@ -1,4 +1,4 @@
-name: Run TSMC Spider
+name: Run Spider
 
 on:
   schedule:
