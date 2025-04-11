@@ -12,6 +12,6 @@ recent_closes = hist['Close'].tail(10)
 
 
 # 儲存成 CSV 檔案（含日期欄位）
-recent_closes.to_csv("api.csv", encoding="utf-8-sig", header=True)
+recent_closes.to_csv("api1.csv", encoding="utf-8-sig", header=True)
 
 print("已儲存為 api.csv")
